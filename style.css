@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-style{
+    background: rgb(196, 21, 102);
+    padding: 15px 18px;
+    color:white;
+}
+
+/* header section starts here */
+.hr-style{
+    border: 5px dotted rgb(133, 23, 23);
+    border-bottom: none;
+    width: 50px;
+    text-align: ;
+}
+.section-center h3{
+    font-size: 35px;
+    font-weight: 700 !important;
+}
+
+header{
+    background-image: url("images/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    padding: 1% 8%;
+    background-color:rgba(0, 0, 0, 0.365);
+}
+.logo-img{
+    width: 90px;
+    height: auto;
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color:white;
+    margin: 5px;
+    transform: 0.4s;
+}
+.nav-link:hover{
+    color:white;
+    background: rgba(8, 8, 191, 0.584);
+    border-radius: 5px;
+    transform: scale(1.1); 
+}
+
+/* header section ends here */
+/* banner starts here */
+.banner-container{
+    height: 80vh;
+}
+.banner-content h1{
+    font-size: 55px;
+    font-family: 'Handlee', cursive;
+    background:rgba(57, 57, 237, 0.435);
+    padding:15px 30px ;
+    border-radius: 5px;
+}
+/* banner ends here */
+/* feature starts here */
+    #feature-section{
+        padding: 5% 8%;
+        background-color:rgba(234, 224, 224, 0.557);
+    }
+    .fetures{
+        border: 1px solid rgb(196, 20, 103);
+        padding: 20px;
+        transition: .4s;
+    }
+    .fetures:hover{
+        box-shadow: 2px 2px 2px black;
+        transform: scale(1.1);
+    }
+    .feature-title{
+        font-size: 23px;
+        margin: 10px 0;
+    }
+  
+/* feature ends here */
+ /* about me section starts here */
+    #about-me{
+        padding: 5% 8%;
+        background-color:rgba(234, 224, 224, 0.557);
+    }
+    .website-link{
+        text-decoration: none;
+    }
+    .descrip p{
+        padding-bottom: none;
+    }
+    .descrip a{
+        text-decoration:none;
+        color:black;
+    }
+    .descrip a:hover{
+        text-decoration:underline;
+    }
+    .avhivement-span{
+        
+    }
+    .star i{
+       width: 20px;
+    }
+    
+
+/* about me section starts here */ 
+/* card section starts here */
+#tutorials{
+    padding: 5% 8%;
+    background: rgba(70, 70, 184, 0.422);
+}
+.card{
+    transition: 0.4s;
+    border: 1px solid rgb(196, 20, 103) ;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px black;
+
+}
+/* card section ends here */
+/* feedback starts here */
+#feedback{
+    padding: 5% 8%;
+    background:rgba(25, 151, 84, 0.274); 
+}
+.carousel-item{
+    padding: 20px 85px;
+}
+.courosel-img{
+    width: 130px;
+    height: auto;
+}
+/* feedback ends here */
+/* contact starts here */
+#contact-me{
+    padding: 5% 8%;
+    background:rgba(16, 80, 170, 0.647); ;
+}
+/* footer ends here */
+footer{
+    padding: 2% 8%;
+    background:rgba(46, 25, 151, 0.71); 
+}
+footer a{
+    color:white;
+    margin:0 10px;
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+}
+/* footer ends here */
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .banner-content h1{
+        font-size: 35px;
+    }
+    .banner-container{
+        height: 20vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner-content h1{
+        font-size: 38px;
+    }
+    .banner-container{
+        height: 25vh;
+    }
+}
+
